@@ -1,0 +1,12 @@
+.gg01 {
+    border: 10px green solid;
+    border-radius: 30px;
+    background-color: greenyellow;
+    padding: 0px;
+}
+.title01 {
+    border: 15px blue solid;
+    border-radius: 40px;
+    background-color: aquamarine;
+    padding: 5px;
+}
