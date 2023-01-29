@@ -1,12 +1,35 @@
 .gg01 {
     border: 10px green solid;
     border-radius: 30px;
-    background-color: greenyellow;
+    background-color: #adff2f;
     padding: 0px;
 }
 .title01 {
-    border: 15px blue solid;
-    border-radius: 40px;
-    background-color: aquamarine;
-    padding: 5px;
+    border: 10px blue outset;
+    border-radius: 60px;
+    background-color: blue;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+.button01 {
+    border: 0px;
+    border-radius: 20px;
+    background-color: green;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-shadow: 30px;
+    color: white;
+    text-align: center;
+    width: 200px;
+    font-weight: 800;
+}
+
+.button01:hover {
+    background-color: blue;
+    cursor: crosshair;
+}
+
+.cool01 {
+    cursor: crosshair;
 }
