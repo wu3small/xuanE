@@ -3,7 +3,16 @@
     border-radius: 30px;
     background-color: #adff2f;
     padding: 0px;
+    box-sizing: border-box;
 }
+
+.gg02 {
+    border: 0px;
+    background-color: gray;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .title01 {
     border: 10px blue outset;
     border-radius: 60px;
@@ -11,7 +20,9 @@
     color: white;
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
+
 .button01 {
     border: 0px;
     border-radius: 20px;
@@ -23,6 +34,7 @@
     text-align: center;
     width: 200px;
     font-weight: 800;
+    box-sizing: border-box;
 }
 
 .button01:hover {
@@ -32,4 +44,9 @@
 
 .cool01 {
     cursor: crosshair;
+}
+
+.cool02 {
+    position: fixed;
+    box-sizing: border-box;
 }
