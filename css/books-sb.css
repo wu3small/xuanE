@@ -13,3 +13,7 @@ hr {
 .ud {
     text-decoration: underline;
 }
+
+.hr {
+    border-color: blue;
+}

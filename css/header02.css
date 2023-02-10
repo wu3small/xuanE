@@ -1,0 +1,36 @@
+.title02boxes {
+    display: grid;
+    grid-template-columns: 1fr 80px 80px;
+    align-items: center;
+    background-color: green;
+    color: white;
+}
+
+.title02boxes div {
+    height: 100%;
+    align-items: center;
+}
+
+.title02a {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.title02b {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.title02b:hover {
+    background-color: white;
+    color: green;
+}

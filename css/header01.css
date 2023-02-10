@@ -1,0 +1,9 @@
+.header01 {
+    border: 10px green outset;
+    border-radius: 60px;
+    background-color: green;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}

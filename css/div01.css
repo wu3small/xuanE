@@ -13,16 +13,6 @@
     box-sizing: border-box;
 }
 
-.title01 {
-    border: 10px blue outset;
-    border-radius: 60px;
-    background-color: blue;
-    color: white;
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-
 .button01 {
     border: 0px;
     border-radius: 20px;
@@ -35,10 +25,15 @@
     width: 200px;
     font-weight: 800;
     box-sizing: border-box;
+    position: relative;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%,0);
 }
 
 .button01:hover {
-    background-color: blue;
+    background-color: white;
+    color: green;
     cursor: crosshair;
 }
 
@@ -54,16 +49,25 @@
 .boxes01 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-auto-rows: auto;
+    grid-auto-rows: 200px;
     text-align: center;
     align-items: center;
     color: white;
     font-weight: 800;
+    box-sizing: border-box;
 }
 
 .boxes01 div {
     border-radius: 40px;
     padding: 20px 0px 0px 0px;
-    margin: 20px;
+    margin: 5%;
     cursor: pointer;
+}
+
+.boxes01 div:hover {
+    border: 8px black solid;
+}
+
+.boxes01 div img {
+    height: 80px;
 }
