@@ -1,6 +1,6 @@
 .title02boxes {
     display: grid;
-    grid-template-columns: 1fr 80px 80px;
+    grid-template-columns: 10px 1fr repeat(3, 10px 80px) 10px;
     align-items: center;
     background-color: green;
     color: white;
@@ -33,4 +33,9 @@
 .title02b:hover {
     background-color: white;
     color: green;
+}
+
+.title02c {
+    border: 0px;
+    background-color: darkgreen;
 }
