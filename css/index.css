@@ -22,3 +22,8 @@ p, a, ul, ol{
 hr {
     border: 2px green solid;
 }
+
+ul {
+    list-style-type: square;
+    line-height: 30px;
+}
