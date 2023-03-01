@@ -1,0 +1,10 @@
+var today = new Date();
+var hr = today.getHours();
+var min = today.getMinutes();
+var sec = today.getSeconds();
+var yr = today.getFullYear();
+var mon = today.getMonth();
+var dat = today.getDate();
+var day = today.getDay();
+var ee = hr + ':' + min + ':' + sec +'<br>' + yr + '/' + mon + '/' + dat + '(' + day + ')';
+document.write(ee);

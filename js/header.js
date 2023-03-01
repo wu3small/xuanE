@@ -1,5 +1,5 @@
-let homeURL = location.protocol +'//'+ location.host
-console.log(homeURL)
+let homeURL = location.protocol +'//'+ location.host;
+console.log(homeURL);
 
 let header ='<div class="title02boxes">'+
 '<div class="title02c"></div>'+
