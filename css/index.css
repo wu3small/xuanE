@@ -27,3 +27,8 @@ ul {
     list-style-type: square;
     line-height: 30px;
 }
+
+.imgCenter {
+    display: block;
+    margin: 0 auto;
+}
