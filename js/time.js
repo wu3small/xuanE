@@ -6,5 +6,5 @@ var yr = today.getFullYear();
 var mon = today.getMonth();
 var dat = today.getDate();
 var day = today.getDay();
-var ee = hr + ':' + min + ':' + sec +'<br>' + yr + '/' + mon + '/' + dat + '(' + day + ')';
+var ee = '時間：' + hr + '點' + min + '分' + sec + '秒<br>日期：' + yr + '年' + mon + '月' + dat + '日，星期' + day + '！';
 document.write(ee);
