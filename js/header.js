@@ -1,4 +1,4 @@
-let homeURL = location.protocol +'//'+ location.host;
+let homeURL = location.protocol +'//'+ location.host + '/xuanE/index.html';
 console.log(homeURL);
 
 let header ='<div class="title02boxes">'+
